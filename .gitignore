@@ -1,0 +1,16 @@
+# Bỏ qua node_modules
+node_modules/
+
+# Bỏ qua các file môi trường
+.env
+.env.local
+.env.*.local
+
+# Bỏ log và cache thông dụng
+*.log
+*.lock
+__pycache__/
+dist/
+build/
+.DS_Store
+
